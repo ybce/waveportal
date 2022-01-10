@@ -135,7 +135,7 @@ const App = () => {
           <span role="img" aria-label="waving hand">👋</span> Hey there!
         </div>
         <div className="bio">
-          A simple smart contract to register waves with a message.
+          A simple smart contract to register waves with a message. Connect your wallet and refresh the page until the list of messages is visible.
           <br></br>Only works with the Rikenby test network, you can get some test ETH from this <a href="https://mycrypto.com/faucet">Faucet</a>
           <br></br><a href="github.com/ybce">Smart contract code</a>
         </div>
