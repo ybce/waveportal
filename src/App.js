@@ -137,7 +137,7 @@ const App = () => {
         <div className="bio">
           A simple smart contract to register waves with a message. Connect your wallet and refresh the page until the list of messages is visible.
           <br></br>Only works with the Rikenby test network, you can get some test ETH from this <a href="https://mycrypto.com/faucet">Faucet</a>
-          <br></br><a href="github.com/ybce">Smart contract code</a>
+          <br></br><a href="https://github.com/ybce/waveportal-smart-contract">Smart contract code</a>
         </div>
         <label style={{ marginTop: "16px" }} className="wavebutton" htmlFor="waveinput">Send me a message with your wave:</label>
         <input id="waveinput" style={{ backgroundColor: "OldLace", marginTop: "16px", padding: "8px" }} className="waveButton">
