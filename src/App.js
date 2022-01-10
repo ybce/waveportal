@@ -135,7 +135,9 @@ const App = () => {
           <span role="img" aria-label="waving hand">👋</span> Hey there!
         </div>
         <div className="bio">
-          I am Youssef and this is my first web3 project. A simple smart contract to register waves with a message.
+          A simple smart contract to register waves with a message.
+          <br></br>Only works with the Rikenby test network, you can get some test ETH from this <a href="https://mycrypto.com/faucet">Faucet</a>
+          <br></br><a href="github.com/ybce">Smart contract code</a>
         </div>
         <label style={{ marginTop: "16px" }} className="wavebutton" htmlFor="waveinput">Send me a message with your wave:</label>
         <input id="waveinput" style={{ backgroundColor: "OldLace", marginTop: "16px", padding: "8px" }} className="waveButton">
@@ -150,7 +152,7 @@ const App = () => {
             Connect Wallet
           </button>
         )}
-        <div style = {{ marginTop: "10px", overflow:"scroll", height:"70vh", borderColor: "red"}}>
+        <div style = {{ marginTop: "10px", overflow:"scroll", height:"65vh", borderColor: "red"}}>
         {allWaves.slice(0).reverse().map((wave, index) => {
           return (
             <div style={{ backgroundColor: "OldLace", marginTop: "16px", padding: "8px" }}>
